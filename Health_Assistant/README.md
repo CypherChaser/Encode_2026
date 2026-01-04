@@ -151,12 +151,15 @@ This ensures consistent, product-specific reasoning without persistent AI memory
 ## 📂 Project Structure
 
 ```
-encode-2026-project/
-│
-├── landing/        # Static landing, about, and team pages
-├── app/            # React-based AI application
-├── backend/        # Node.js + Express API
-└── README.md
+Health_Assistant/
+├── backend/                  # Backend server code
+│   ├── aiService.js          # AI service integration
+│   ├── app.js                # Express application setup
+│   ├── server.js             # Server entry point
+│   ├── sessionManager.js      # Session management
+│   └── ttsService.js         # Text to speech generation logic
+└── frontend/                 # Frontend files
+    └── index.html  
 ```
 
 ---
